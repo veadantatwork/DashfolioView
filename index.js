@@ -1,9 +1,15 @@
-//javascript array
+//template literals
 
-let friends = ['nabu', 'ra' , 'Khonshu', 'Anubis' ];
+let name = 'kaliente'
+console.log(`my name is ${name} `);
 
-console.log(friends);
-console.log(friends[0]);
-console.log(typeof friends);
+console.log(`${3000 + 2000}`)
 
-console.log(friends.length);
+
+
+let message = ` my 
+name 
+is
+ caliente 
+ esposito`;
+console.log(message);
