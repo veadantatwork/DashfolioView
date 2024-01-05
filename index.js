@@ -1,18 +1,9 @@
-//objects
+//javascript array
 
-let name = "vedant"
-let age = 70;
-let hobby = 'reading';
+let friends = ['nabu', 'ra' , 'Khonshu', 'Anubis' ];
 
-let user = {
-name : 'Vedant',
-age : 70,
-hobby :'reading',
+console.log(friends);
+console.log(friends[0]);
+console.log(typeof friends);
 
-}
-console.log (user);
-console.log(user,name)
-console.log(user,hobby)
-
-console.log(user['name']);
-console.log(user['age']);
+console.log(friends.length);
