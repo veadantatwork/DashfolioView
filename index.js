@@ -1,15 +1,21 @@
-//template literals
+//exercise
 
-let name = 'kaliente'
-console.log(`my name is ${name} `);
+let person = 
 
-console.log(`${3000 + 2000}`)
+{
+    name: 'Veonat',
+    age: 96,
+    isMarried : true,
 
+homeAddress: {
+    long: 44.55,
+    lat: 33.44,
 
+},
+friends : ['chap', 'namo', 'melo'],
 
-let message = ` my 
-name 
-is
- caliente 
- esposito`;
-console.log(message);
+};
+console.log(person);
+console.log(person.name);
+console.log(person.homeAddress.long);
+console.log(person.friends[2]);
